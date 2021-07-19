@@ -1,13 +1,7 @@
 <h1 align="center">Welcome to node ts template 👋</h1>
 <p>
-  <a href="https://www.npmjs.com/package/node ts template" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/node ts template.svg">
-  </a>
   <a href="https://mit-license.org/" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  </a>
-  <a href="https://twitter.com/´" target="_blank">
-    <img alt="Twitter: ´" src="https://img.shields.io/twitter/follow/´.svg?style=social" />
   </a>
 </p>
 
