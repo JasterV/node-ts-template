@@ -1,0 +1,13 @@
+{
+  "preset": "ts-jest",
+  "coverageDirectory": "./coverage",
+  "collectCoverageFrom": [
+    "src/**/*.{ts,tsx,js,jsx}",
+    "!src/**/*.d.ts"
+  ],
+  "testMatch": [
+    "<rootDir>/**/*.test.ts"
+  ],
+  "resetMocks": true,
+  "clearMocks": true
+}

@@ -1,13 +1,14 @@
 {
   "name": "node-ts-template",
   "version": "0.1.0",
-  "description": "A template for typescript nodejs projects with configuration files such as tsconfig, eslint & package.json",
-  "main": "src/index.ts",
+  "description": "A template for nodejs projects with configuration files for typescript support",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn src/index.ts",
-    "lint": "eslint . --fix"
+    "test": "jest -c ./jest.json",
+    "test:coverage": "jest --coverage -c ./jest.json"
   },
   "keywords": [
     "typescript",
@@ -20,12 +21,15 @@
   "author": "Victor Martinez",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.24",
     "@types/node": "^16.3.3",
     "@typescript-eslint/eslint-plugin": "^4.28.4",
     "@typescript-eslint/parser": "^4.28.4",
     "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.23.4",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.3",
     "ts-node-dev": "^1.1.8",
     "typescript": "^4.3.5"
   }

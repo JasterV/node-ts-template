@@ -26,9 +26,10 @@
     "baseUrl": "."
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "**/*.test.ts"
   ],
   "include": [
-    "./src/**/*.ts"
+    "./src/**/*.ts",
   ]
 }

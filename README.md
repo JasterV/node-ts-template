@@ -25,9 +25,10 @@ This tsconfig.json comes from
 [Ben awad recommended tsconfig](https://github.com/benawad/tsconfig.json) Thanks
 Ben <3
 
-## .gitignore
+## Jest
 
-.gitignore generated with gitignore.io, works fine without any further change :D
+jest.json configured to handle *.test.ts files under the tests & src folders.
+Also we use ts-jest to run our tests without compiling typescript to javascript
 
 ## package.json
 
@@ -38,6 +39,10 @@ nodemon I don't need you anymore)
 
 I don't think I need prettier as this ESLint config works totally fine for me.
 If you want to make a pull request adding ESLint prettier config you are welcome
+
+## .gitignore
+
+.gitignore generated with gitignore.io, works fine without any further change :D
 
 ## Github action
 
