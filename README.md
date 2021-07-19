@@ -43,6 +43,11 @@ If you want to make a pull request adding ESLint prettier config you are welcome
 I've just added the default nodejs github workflow as it works perfectly fine
 for simple nodejs projects (Just install dependencies, build & test)
 
+## Husky
+
+I love husky as it can automate jobs on any git command such as executing tests
+each time you create a commit
+
 ## Author
 
 👤 **Victor Martinez**
